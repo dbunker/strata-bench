@@ -1,0 +1,1117 @@
+{
+ "id": "hamiltonian_cycle",
+ "generated": "2026-09-21 19:49",
+ "measurement": {
+  "clingo": "5.8.0",
+  "python": "3.14.0",
+  "os": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "cores": 16,
+  "memory_gb": 48,
+  "load_1min": 4.56,
+  "workers": 4,
+  "memory_cap_mb": 6000,
+  "backstop_seconds": 20
+ },
+ "caps": {
+  "survey": 120,
+  "fitness": 34,
+  "reporting": 120
+ },
+ "instances": {
+  "instcross10_38_29.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 41.303,
+   "solving_seconds": 41.24,
+   "grounding_bound": false,
+   "peak_rss_mb": 77
+  },
+  "instcross6_30_4.lp": {
+   "split": "train",
+   "verdict": "UNSAT",
+   "seconds": 55.621,
+   "solving_seconds": 55.57,
+   "grounding_bound": false,
+   "peak_rss_mb": 40
+  },
+  "instcross6_35_0.lp": {
+   "split": "train",
+   "verdict": "UNSAT",
+   "seconds": 37.897,
+   "solving_seconds": 37.84,
+   "grounding_bound": false,
+   "peak_rss_mb": 39
+  },
+  "instcross6_38_10.lp": {
+   "split": "train",
+   "verdict": "UNSAT",
+   "seconds": 66.899,
+   "solving_seconds": 66.85,
+   "grounding_bound": false,
+   "peak_rss_mb": 41
+  },
+  "instrectL1412_10_50.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 1.75,
+   "solving_seconds": 1.69,
+   "grounding_bound": false,
+   "peak_rss_mb": 32
+  },
+  "instrectL1412_16_5.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 5.861,
+   "solving_seconds": 5.8,
+   "grounding_bound": false,
+   "peak_rss_mb": 36
+  },
+  "instrectL1412_18_73.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 75.446,
+   "solving_seconds": 75.39,
+   "grounding_bound": false,
+   "peak_rss_mb": 57
+  },
+  "instrectL1412_26_69.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 71.632,
+   "solving_seconds": 71.57,
+   "grounding_bound": false,
+   "peak_rss_mb": 53
+  },
+  "instrectL1412_30_3.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 6.876,
+   "solving_seconds": 6.82,
+   "grounding_bound": false,
+   "peak_rss_mb": 37
+  },
+  "instrectL1412_34_26.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 70.086,
+   "solving_seconds": 70.03,
+   "grounding_bound": false,
+   "peak_rss_mb": 52
+  },
+  "instrectL1412_38_72.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 27.81,
+   "solving_seconds": 27.75,
+   "grounding_bound": false,
+   "peak_rss_mb": 43
+  },
+  "instrectL1412_64_33.lp": {
+   "split": "train",
+   "verdict": "UNSAT",
+   "seconds": 39.8,
+   "solving_seconds": 39.74,
+   "grounding_bound": false,
+   "peak_rss_mb": 39
+  },
+  "instrectL4_20_5.lp": {
+   "split": "train",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 119.99,
+   "grounding_bound": false,
+   "peak_rss_mb": 67
+  },
+  "instrectL4_34_4.lp": {
+   "split": "train",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 120.0,
+   "grounding_bound": false,
+   "peak_rss_mb": 64
+  },
+  "instsquare12_16_4.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 4.005,
+   "solving_seconds": 3.94,
+   "grounding_bound": false,
+   "peak_rss_mb": 34
+  },
+  "insttri200_141_7.lp": {
+   "split": "train",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 119.99,
+   "grounding_bound": false,
+   "peak_rss_mb": 83
+  },
+  "insttri200_51_10.lp": {
+   "split": "train",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 120.0,
+   "grounding_bound": false,
+   "peak_rss_mb": 97
+  },
+  "insttri200_81_9.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 1.61,
+   "solving_seconds": 1.55,
+   "grounding_bound": false,
+   "peak_rss_mb": 38
+  },
+  "insttri2010_51_5.lp": {
+   "split": "train",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 119.99,
+   "grounding_bound": false,
+   "peak_rss_mb": 106
+  },
+  "insttri2015_130_28.lp": {
+   "split": "train",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 119.99,
+   "grounding_bound": false,
+   "peak_rss_mb": 157
+  },
+  "insttri2015_165_10.lp": {
+   "split": "train",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 119.99,
+   "grounding_bound": false,
+   "peak_rss_mb": 164
+  },
+  "insttri2015_80_25.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 117.876,
+   "solving_seconds": 117.8,
+   "grounding_bound": false,
+   "peak_rss_mb": 156
+  },
+  "insttri280_17_1.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 4.195,
+   "solving_seconds": 4.13,
+   "grounding_bound": false,
+   "peak_rss_mb": 46
+  },
+  "insttri320_49_1.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 53.455,
+   "solving_seconds": 53.39,
+   "grounding_bound": false,
+   "peak_rss_mb": 97
+  },
+  "insttri400_41_2.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 55.857,
+   "solving_seconds": 55.78,
+   "grounding_bound": false,
+   "peak_rss_mb": 112
+  },
+  "instcross10_50_9.lp": {
+   "split": "validate",
+   "verdict": "SAT",
+   "seconds": 18.402,
+   "solving_seconds": 18.33,
+   "grounding_bound": false,
+   "peak_rss_mb": 63
+  },
+  "instcross10_75_27.lp": {
+   "split": "validate",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 119.99,
+   "grounding_bound": false,
+   "peak_rss_mb": 99
+  },
+  "instrectL1412_12_48.lp": {
+   "split": "validate",
+   "verdict": "SAT",
+   "seconds": 23.255,
+   "solving_seconds": 23.2,
+   "grounding_bound": false,
+   "peak_rss_mb": 45
+  },
+  "instrectL1412_14_53.lp": {
+   "split": "validate",
+   "verdict": "SAT",
+   "seconds": 108.312,
+   "solving_seconds": 108.25,
+   "grounding_bound": false,
+   "peak_rss_mb": 60
+  },
+  "instrectL1412_28_19.lp": {
+   "split": "validate",
+   "verdict": "SAT",
+   "seconds": 32.395,
+   "solving_seconds": 32.34,
+   "grounding_bound": false,
+   "peak_rss_mb": 48
+  },
+  "instrectL1412_56_59.lp": {
+   "split": "validate",
+   "verdict": "UNSAT",
+   "seconds": 22.74,
+   "solving_seconds": 22.68,
+   "grounding_bound": false,
+   "peak_rss_mb": 35
+  },
+  "instrectL1412_6_4.lp": {
+   "split": "validate",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 120.0,
+   "grounding_bound": false,
+   "peak_rss_mb": 65
+  },
+  "instrectL4_48_5.lp": {
+   "split": "validate",
+   "verdict": "SAT",
+   "seconds": 34.181,
+   "solving_seconds": 34.12,
+   "grounding_bound": false,
+   "peak_rss_mb": 49
+  },
+  "instrectL4_4_7.lp": {
+   "split": "validate",
+   "verdict": "SAT",
+   "seconds": 25.485,
+   "solving_seconds": 25.42,
+   "grounding_bound": false,
+   "peak_rss_mb": 51
+  },
+  "insttri240_65_1.lp": {
+   "split": "validate",
+   "verdict": "SAT",
+   "seconds": 4.057,
+   "solving_seconds": 3.99,
+   "grounding_bound": false,
+   "peak_rss_mb": 44
+  },
+  "insttri3010_301_0.lp": {
+   "split": "validate",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 119.99,
+   "grounding_bound": false,
+   "peak_rss_mb": 129
+  },
+  "insttri360_65_1.lp": {
+   "split": "validate",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 119.98,
+   "grounding_bound": false,
+   "peak_rss_mb": 146
+  },
+  "instrectL1412_12_57.lp": {
+   "split": "test",
+   "verdict": "SAT",
+   "seconds": 30.826,
+   "solving_seconds": 30.77,
+   "grounding_bound": false,
+   "peak_rss_mb": 46
+  },
+  "instrectL1412_20_35.lp": {
+   "split": "test",
+   "verdict": "SAT",
+   "seconds": 40.403,
+   "solving_seconds": 40.35,
+   "grounding_bound": false,
+   "peak_rss_mb": 51
+  },
+  "instrectL1412_22_71.lp": {
+   "split": "test",
+   "verdict": "SAT",
+   "seconds": 10.558,
+   "solving_seconds": 10.5,
+   "grounding_bound": false,
+   "peak_rss_mb": 41
+  },
+  "instrectL1412_2_37.lp": {
+   "split": "test",
+   "verdict": "SAT",
+   "seconds": 10.46,
+   "solving_seconds": 10.4,
+   "grounding_bound": false,
+   "peak_rss_mb": 41
+  },
+  "instrectL4_1_15.lp": {
+   "split": "test",
+   "verdict": "SAT",
+   "seconds": 1.876,
+   "solving_seconds": 1.82,
+   "grounding_bound": false,
+   "peak_rss_mb": 33
+  },
+  "insttri200_1_1.lp": {
+   "split": "test",
+   "verdict": "SAT",
+   "seconds": 0.235,
+   "solving_seconds": 0.17,
+   "grounding_bound": false,
+   "peak_rss_mb": 0
+  },
+  "insttri2015_110_28.lp": {
+   "split": "test",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 119.99,
+   "grounding_bound": false,
+   "peak_rss_mb": 162
+  },
+  "insttri2015_95_17.lp": {
+   "split": "test",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 119.99,
+   "grounding_bound": false,
+   "peak_rss_mb": 158
+  },
+  "insttri280_73_1.lp": {
+   "split": "test",
+   "verdict": "SAT",
+   "seconds": 1.619,
+   "solving_seconds": 1.55,
+   "grounding_bound": false,
+   "peak_rss_mb": 40
+  },
+  "insttri300_116_1.lp": {
+   "split": "test",
+   "verdict": "SAT",
+   "seconds": 4.006,
+   "solving_seconds": 3.94,
+   "grounding_bound": false,
+   "peak_rss_mb": 43
+  },
+  "insttri300_161_6.lp": {
+   "split": "test",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 120.0,
+   "grounding_bound": false,
+   "peak_rss_mb": 109
+  }
+ },
+ "encodings": {
+  "seed": {
+   "file": "seeds/hamiltonian_cycle.lp",
+   "results": {
+    "train": {
+     "passed": 7,
+     "wrong": 0,
+     "n": 25,
+     "par2": 1274.723,
+     "score": 6.2506,
+     "solved_seconds": 50.723,
+     "cap": 34,
+     "guard": "ok",
+     "instances": {
+      "instcross10_38_29.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 34.0,
+       "solving_seconds": 33.98,
+       "grounding_bound": false,
+       "peak_rss_mb": 74,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "instcross6_30_4.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 34.0,
+       "solving_seconds": 34.0,
+       "grounding_bound": false,
+       "peak_rss_mb": 38,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "instcross6_35_0.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 34.0,
+       "solving_seconds": 34.0,
+       "grounding_bound": false,
+       "peak_rss_mb": 38,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "instcross6_38_10.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 34.0,
+       "solving_seconds": 34.0,
+       "grounding_bound": false,
+       "peak_rss_mb": 39,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "instrectL1412_10_50.lp": {
+       "verdict": "SAT",
+       "seconds": 1.757,
+       "solving_seconds": 1.7,
+       "grounding_bound": false,
+       "peak_rss_mb": 32,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "instrectL1412_16_5.lp": {
+       "verdict": "SAT",
+       "seconds": 5.833,
+       "solving_seconds": 5.77,
+       "grounding_bound": false,
+       "peak_rss_mb": 36,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "instrectL1412_18_73.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 34.0,
+       "solving_seconds": 34.0,
+       "grounding_bound": false,
+       "peak_rss_mb": 48,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "instrectL1412_26_69.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 34.0,
+       "solving_seconds": 34.0,
+       "grounding_bound": false,
+       "peak_rss_mb": 45,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "instrectL1412_30_3.lp": {
+       "verdict": "SAT",
+       "seconds": 6.624,
+       "solving_seconds": 6.56,
+       "grounding_bound": false,
+       "peak_rss_mb": 37,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "instrectL1412_34_26.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 34.0,
+       "solving_seconds": 34.0,
+       "grounding_bound": false,
+       "peak_rss_mb": 45,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "instrectL1412_38_72.lp": {
+       "verdict": "SAT",
+       "seconds": 27.041,
+       "solving_seconds": 26.98,
+       "grounding_bound": false,
+       "peak_rss_mb": 43,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "instrectL1412_64_33.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 34.0,
+       "solving_seconds": 34.0,
+       "grounding_bound": false,
+       "peak_rss_mb": 38,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "instrectL4_20_5.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 34.0,
+       "solving_seconds": 33.99,
+       "grounding_bound": false,
+       "peak_rss_mb": 53,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "instrectL4_34_4.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 34.0,
+       "solving_seconds": 34.0,
+       "grounding_bound": false,
+       "peak_rss_mb": 47,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "instsquare12_16_4.lp": {
+       "verdict": "SAT",
+       "seconds": 3.688,
+       "solving_seconds": 3.63,
+       "grounding_bound": false,
+       "peak_rss_mb": 34,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "insttri200_141_7.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 34.0,
+       "solving_seconds": 34.0,
+       "grounding_bound": false,
+       "peak_rss_mb": 59,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "insttri200_51_10.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 34.0,
+       "solving_seconds": 34.0,
+       "grounding_bound": false,
+       "peak_rss_mb": 67,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "insttri200_81_9.lp": {
+       "verdict": "SAT",
+       "seconds": 1.6,
+       "solving_seconds": 1.54,
+       "grounding_bound": false,
+       "peak_rss_mb": 38,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "insttri2010_51_5.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 34.0,
+       "solving_seconds": 33.99,
+       "grounding_bound": false,
+       "peak_rss_mb": 72,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "insttri2015_130_28.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 34.0,
+       "solving_seconds": 33.99,
+       "grounding_bound": false,
+       "peak_rss_mb": 95,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "insttri2015_165_10.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 34.0,
+       "solving_seconds": 33.99,
+       "grounding_bound": false,
+       "peak_rss_mb": 95,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "insttri2015_80_25.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 34.0,
+       "solving_seconds": 33.99,
+       "grounding_bound": false,
+       "peak_rss_mb": 98,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "insttri280_17_1.lp": {
+       "verdict": "SAT",
+       "seconds": 4.18,
+       "solving_seconds": 4.12,
+       "grounding_bound": false,
+       "peak_rss_mb": 46,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "insttri320_49_1.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 34.0,
+       "solving_seconds": 34.0,
+       "grounding_bound": false,
+       "peak_rss_mb": 78,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "insttri400_41_2.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 34.0,
+       "solving_seconds": 33.98,
+       "grounding_bound": false,
+       "peak_rss_mb": 91,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      }
+     }
+    },
+    "validate": {
+     "passed": 7,
+     "wrong": 0,
+     "n": 12,
+     "par2": 499.242,
+     "score": 6.3889,
+     "solved_seconds": 159.242,
+     "cap": 34,
+     "guard": "ok",
+     "instances": {
+      "instcross10_50_9.lp": {
+       "verdict": "SAT",
+       "seconds": 18.287,
+       "solving_seconds": 18.21,
+       "grounding_bound": false,
+       "peak_rss_mb": 63,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "instcross10_75_27.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 34.0,
+       "solving_seconds": 33.98,
+       "grounding_bound": false,
+       "peak_rss_mb": 70,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "instrectL1412_12_48.lp": {
+       "verdict": "SAT",
+       "seconds": 23.015,
+       "solving_seconds": 22.96,
+       "grounding_bound": false,
+       "peak_rss_mb": 45,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "instrectL1412_14_53.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 34.0,
+       "solving_seconds": 34.0,
+       "grounding_bound": false,
+       "peak_rss_mb": 48,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "instrectL1412_28_19.lp": {
+       "verdict": "SAT",
+       "seconds": 32.316,
+       "solving_seconds": 32.26,
+       "grounding_bound": false,
+       "peak_rss_mb": 48,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "instrectL1412_56_59.lp": {
+       "verdict": "UNSAT",
+       "seconds": 22.656,
+       "solving_seconds": 22.6,
+       "grounding_bound": false,
+       "peak_rss_mb": 35,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "instrectL1412_6_4.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 34.0,
+       "solving_seconds": 33.99,
+       "grounding_bound": false,
+       "peak_rss_mb": 50,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "instrectL4_48_5.lp": {
+       "verdict": "SAT",
+       "seconds": 33.688,
+       "solving_seconds": 33.63,
+       "grounding_bound": false,
+       "peak_rss_mb": 48,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "instrectL4_4_7.lp": {
+       "verdict": "SAT",
+       "seconds": 25.22,
+       "solving_seconds": 25.16,
+       "grounding_bound": false,
+       "peak_rss_mb": 51,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "insttri240_65_1.lp": {
+       "verdict": "SAT",
+       "seconds": 4.06,
+       "solving_seconds": 4.0,
+       "grounding_bound": false,
+       "peak_rss_mb": 43,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "insttri3010_301_0.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 34.0,
+       "solving_seconds": 33.99,
+       "grounding_bound": false,
+       "peak_rss_mb": 86,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "insttri360_65_1.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 34.0,
+       "solving_seconds": 33.99,
+       "grounding_bound": false,
+       "peak_rss_mb": 94,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      }
+     }
+    },
+    "test": {
+     "passed": 7,
+     "wrong": 0,
+     "n": 11,
+     "par2": 332.015,
+     "score": 6.5567,
+     "solved_seconds": 60.015,
+     "cap": 34,
+     "guard": "ok",
+     "instances": {
+      "instrectL1412_12_57.lp": {
+       "verdict": "SAT",
+       "seconds": 31.114,
+       "solving_seconds": 31.05,
+       "grounding_bound": false,
+       "peak_rss_mb": 47,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "instrectL1412_20_35.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 34.0,
+       "solving_seconds": 34.0,
+       "grounding_bound": false,
+       "peak_rss_mb": 49,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "instrectL1412_22_71.lp": {
+       "verdict": "SAT",
+       "seconds": 10.666,
+       "solving_seconds": 10.61,
+       "grounding_bound": false,
+       "peak_rss_mb": 41,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "instrectL1412_2_37.lp": {
+       "verdict": "SAT",
+       "seconds": 10.489,
+       "solving_seconds": 10.43,
+       "grounding_bound": false,
+       "peak_rss_mb": 41,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "instrectL4_1_15.lp": {
+       "verdict": "SAT",
+       "seconds": 1.904,
+       "solving_seconds": 1.84,
+       "grounding_bound": false,
+       "peak_rss_mb": 33,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "insttri200_1_1.lp": {
+       "verdict": "SAT",
+       "seconds": 0.235,
+       "solving_seconds": 0.17,
+       "grounding_bound": false,
+       "peak_rss_mb": 0,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "insttri2015_110_28.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 34.0,
+       "solving_seconds": 33.98,
+       "grounding_bound": false,
+       "peak_rss_mb": 94,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "insttri2015_95_17.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 34.0,
+       "solving_seconds": 33.98,
+       "grounding_bound": false,
+       "peak_rss_mb": 97,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "insttri280_73_1.lp": {
+       "verdict": "SAT",
+       "seconds": 1.621,
+       "solving_seconds": 1.55,
+       "grounding_bound": false,
+       "peak_rss_mb": 40,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "insttri300_116_1.lp": {
+       "verdict": "SAT",
+       "seconds": 3.986,
+       "solving_seconds": 3.92,
+       "grounding_bound": false,
+       "peak_rss_mb": 43,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "insttri300_161_6.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 34.0,
+       "solving_seconds": 33.99,
+       "grounding_bound": false,
+       "peak_rss_mb": 74,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      }
+     }
+    },
+    "test_at_reporting_cap": {
+     "passed": 8,
+     "wrong": 0,
+     "n": 11,
+     "par2": 820.723,
+     "score": 7.6892,
+     "solved_seconds": 100.723,
+     "cap": 120,
+     "guard": "ok",
+     "instances": {
+      "instrectL1412_12_57.lp": {
+       "verdict": "SAT",
+       "seconds": 31.11,
+       "solving_seconds": 31.05,
+       "grounding_bound": false,
+       "peak_rss_mb": 47,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "instrectL1412_20_35.lp": {
+       "verdict": "SAT",
+       "seconds": 40.744,
+       "solving_seconds": 40.69,
+       "grounding_bound": false,
+       "peak_rss_mb": 51,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "instrectL1412_22_71.lp": {
+       "verdict": "SAT",
+       "seconds": 10.63,
+       "solving_seconds": 10.58,
+       "grounding_bound": false,
+       "peak_rss_mb": 41,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "instrectL1412_2_37.lp": {
+       "verdict": "SAT",
+       "seconds": 10.461,
+       "solving_seconds": 10.4,
+       "grounding_bound": false,
+       "peak_rss_mb": 41,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "instrectL4_1_15.lp": {
+       "verdict": "SAT",
+       "seconds": 1.904,
+       "solving_seconds": 1.84,
+       "grounding_bound": false,
+       "peak_rss_mb": 33,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "insttri200_1_1.lp": {
+       "verdict": "SAT",
+       "seconds": 0.231,
+       "solving_seconds": 0.17,
+       "grounding_bound": false,
+       "peak_rss_mb": 0,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "insttri2015_110_28.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 120.0,
+       "solving_seconds": 119.98,
+       "grounding_bound": false,
+       "peak_rss_mb": 162,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "insttri2015_95_17.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 120.0,
+       "solving_seconds": 119.99,
+       "grounding_bound": false,
+       "peak_rss_mb": 158,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "insttri280_73_1.lp": {
+       "verdict": "SAT",
+       "seconds": 1.62,
+       "solving_seconds": 1.55,
+       "grounding_bound": false,
+       "peak_rss_mb": 40,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "insttri300_116_1.lp": {
+       "verdict": "SAT",
+       "seconds": 4.023,
+       "solving_seconds": 3.96,
+       "grounding_bound": false,
+       "peak_rss_mb": 43,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "insttri300_161_6.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 120.0,
+       "solving_seconds": 119.99,
+       "grounding_bound": false,
+       "peak_rss_mb": 109,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      }
+     }
+    }
+   }
+  }
+ },
+ "validator_selftest": {
+  "instances": 8,
+  "accept_witness": 8,
+  "reject_one_atom_removed": 8,
+  "reject_empty": 8,
+  "pass": true
+ }
+}

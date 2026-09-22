@@ -1,0 +1,1487 @@
+{
+ "id": "argumentation",
+ "generated": "2026-09-22 08:01",
+ "measurement": {
+  "clingo": "5.8.0",
+  "python": "3.14.0",
+  "os": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "cores": 16,
+  "memory_gb": 48,
+  "load_1min": 5.65,
+  "workers": 4,
+  "memory_cap_mb": 6000,
+  "backstop_seconds": 20
+ },
+ "caps": {
+  "survey": 120,
+  "fitness": 6,
+  "reporting": 120
+ },
+ "instances": {
+  "BA_160_90_2.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 0.35,
+   "solving_seconds": 0.02,
+   "grounding_bound": false,
+   "peak_rss_mb": 76
+  },
+  "ER_200_60_6.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 2.018,
+   "solving_seconds": 1.48,
+   "grounding_bound": false,
+   "peak_rss_mb": 154
+  },
+  "ER_300_60_5.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 28.192,
+   "solving_seconds": 26.75,
+   "grounding_bound": false,
+   "peak_rss_mb": 353
+  },
+  "Medium-result_b28.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 37.231,
+   "solving_seconds": 0.09,
+   "grounding_bound": false,
+   "peak_rss_mb": 1778
+  },
+  "WS_100_24_70_70.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 0.276,
+   "solving_seconds": 0.17,
+   "grounding_bound": false,
+   "peak_rss_mb": 53
+  },
+  "WS_100_6_10_50.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 0.114,
+   "solving_seconds": 0.0,
+   "grounding_bound": false,
+   "peak_rss_mb": 0
+  },
+  "WS_400_8_30_30.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 4.818,
+   "solving_seconds": 0.2,
+   "grounding_bound": false,
+   "peak_rss_mb": 388
+  },
+  "WS_500_16_50_50.lp": {
+   "split": "train",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 111.69,
+   "grounding_bound": false,
+   "peak_rss_mb": 624
+  },
+  "a1210993_20150717_0403.gml.80.lp": {
+   "split": "train",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 0.0,
+   "grounding_bound": true,
+   "peak_rss_mb": 4411
+  },
+  "admbuster_50000.lp": {
+   "split": "train",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": null,
+   "grounding_bound": true,
+   "peak_rss_mb": 6180
+  },
+  "afinput_exp_acyclic_depvary_step6_batch_yyy08.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 0.177,
+   "solving_seconds": 0.0,
+   "grounding_bound": false,
+   "peak_rss_mb": 0
+  },
+  "afinput_exp_acyclic_depvary_step7_batch_yyy02.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 0.179,
+   "solving_seconds": 0.0,
+   "grounding_bound": false,
+   "peak_rss_mb": 0
+  },
+  "afinput_exp_acyclic_depvary_step8_batch_yyy07.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 0.15,
+   "solving_seconds": 0.0,
+   "grounding_bound": false,
+   "peak_rss_mb": 0
+  },
+  "afinput_exp_acyclic_depvary_step8_batch_yyy10.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 0.409,
+   "solving_seconds": 0.01,
+   "grounding_bound": false,
+   "peak_rss_mb": 49
+  },
+  "bw3.pfile-4-06.pddl.2.cnf.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 10.698,
+   "solving_seconds": 1.9,
+   "grounding_bound": false,
+   "peak_rss_mb": 651
+  },
+  "bw3.pfile-4-06.pddl.5.cnf.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 17.227,
+   "solving_seconds": 1.33,
+   "grounding_bound": false,
+   "peak_rss_mb": 748
+  },
+  "commuteorg-shuttle_20150308_1938.gml.20.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 0.163,
+   "solving_seconds": 0.01,
+   "grounding_bound": false,
+   "peak_rss_mb": 0
+  },
+  "crusti_g2io_125_0.5_31_48.lp": {
+   "split": "train",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 0.0,
+   "grounding_bound": true,
+   "peak_rss_mb": 1420
+  },
+  "ferry2.pfile-L2-C4-09.pddl.6.cnf.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 33.111,
+   "solving_seconds": 5.65,
+   "grounding_bound": false,
+   "peak_rss_mb": 1028
+  },
+  "g_1160_0.02_10.lp": {
+   "split": "train",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 0.0,
+   "grounding_bound": true,
+   "peak_rss_mb": 2642
+  },
+  "g_1590_0.01_1.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 91.492,
+   "solving_seconds": 0.55,
+   "grounding_bound": false,
+   "peak_rss_mb": 5318
+  },
+  "g_2288_0.02_7.lp": {
+   "split": "train",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 0.0,
+   "grounding_bound": true,
+   "peak_rss_mb": 608
+  },
+  "port-authority-of-allegheny-county_20140619_0109.gml.80.lp": {
+   "split": "train",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 0.0,
+   "grounding_bound": true,
+   "peak_rss_mb": 3338
+  },
+  "scc_1523_46_0.4_0.1__8.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 82.713,
+   "solving_seconds": 2.49,
+   "grounding_bound": false,
+   "peak_rss_mb": 5208
+  },
+  "scc_437_39_0.3_0.05__4.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 5.886,
+   "solving_seconds": 0.03,
+   "grounding_bound": false,
+   "peak_rss_mb": 464
+  },
+  "sembuster_300.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 2.194,
+   "solving_seconds": 0.43,
+   "grounding_bound": false,
+   "peak_rss_mb": 217
+  },
+  "st_1276_43_25_1938.lp": {
+   "split": "train",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 0.0,
+   "grounding_bound": true,
+   "peak_rss_mb": 3275
+  },
+  "st_1391_70_12_1674.lp": {
+   "split": "train",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 0.0,
+   "grounding_bound": true,
+   "peak_rss_mb": 3823
+  },
+  "st_826_34_8_3910.lp": {
+   "split": "train",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 87.11,
+   "grounding_bound": false,
+   "peak_rss_mb": 1641
+  },
+  "st_890_86_9_572.lp": {
+   "split": "train",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 90.35,
+   "grounding_bound": false,
+   "peak_rss_mb": 1944
+  },
+  "stanislaus_ca_2015-12-02.gml.20.lp": {
+   "split": "train",
+   "verdict": "SAT",
+   "seconds": 3.133,
+   "solving_seconds": 0.67,
+   "grounding_bound": false,
+   "peak_rss_mb": 220
+  },
+  "BA_100_0_4.lp": {
+   "split": "validate",
+   "verdict": "SAT",
+   "seconds": 0.131,
+   "solving_seconds": 0.02,
+   "grounding_bound": false,
+   "peak_rss_mb": 0
+  },
+  "BA_160_50_1.lp": {
+   "split": "validate",
+   "verdict": "SAT",
+   "seconds": 0.427,
+   "solving_seconds": 0.14,
+   "grounding_bound": false,
+   "peak_rss_mb": 76
+  },
+  "ER_200_20_6.lp": {
+   "split": "validate",
+   "verdict": "SAT",
+   "seconds": 31.596,
+   "solving_seconds": 31.13,
+   "grounding_bound": false,
+   "peak_rss_mb": 171
+  },
+  "ER_300_30_7.lp": {
+   "split": "validate",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 118.75,
+   "grounding_bound": false,
+   "peak_rss_mb": 282
+  },
+  "WS_400_32_70_70.lp": {
+   "split": "validate",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 116.88,
+   "grounding_bound": false,
+   "peak_rss_mb": 417
+  },
+  "ferry2.pfile-L2-C2-04.pddl.2.cnf.lp": {
+   "split": "validate",
+   "verdict": "SAT",
+   "seconds": 1.066,
+   "solving_seconds": 0.18,
+   "grounding_bound": false,
+   "peak_rss_mb": 138
+  },
+  "ferry2.pfile-L3-C1-08.pddl.2.cnf.lp": {
+   "split": "validate",
+   "verdict": "SAT",
+   "seconds": 3.298,
+   "solving_seconds": 0.48,
+   "grounding_bound": false,
+   "peak_rss_mb": 326
+  },
+  "g_1604_0.03_3.lp": {
+   "split": "validate",
+   "verdict": "SAT",
+   "seconds": 95.938,
+   "solving_seconds": 0.62,
+   "grounding_bound": false,
+   "peak_rss_mb": 5695
+  },
+  "g_3142_0.04_3.lp": {
+   "split": "validate",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 0.0,
+   "grounding_bound": true,
+   "peak_rss_mb": 908
+  },
+  "n100p5q2.lp": {
+   "split": "validate",
+   "verdict": "SAT",
+   "seconds": 0.141,
+   "solving_seconds": 0.0,
+   "grounding_bound": false,
+   "peak_rss_mb": 0
+  },
+  "n256p5q2_e.lp": {
+   "split": "validate",
+   "verdict": "SAT",
+   "seconds": 0.954,
+   "solving_seconds": 0.1,
+   "grounding_bound": false,
+   "peak_rss_mb": 202
+  },
+  "rennes_2015-12-18.gml.50.lp": {
+   "split": "validate",
+   "verdict": "SAT",
+   "seconds": 73.727,
+   "solving_seconds": 30.14,
+   "grounding_bound": false,
+   "peak_rss_mb": 1016
+  },
+  "rpsrute@ruter.no_20150319_1558.gml.80.lp": {
+   "split": "validate",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": null,
+   "grounding_bound": true,
+   "peak_rss_mb": 6165
+  },
+  "scc_1496_48_0.5_0.2__5.lp": {
+   "split": "validate",
+   "verdict": "SAT",
+   "seconds": 82.154,
+   "solving_seconds": 1.84,
+   "grounding_bound": false,
+   "peak_rss_mb": 5077
+  },
+  "st_1350_55_31_149.lp": {
+   "split": "validate",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 0.0,
+   "grounding_bound": true,
+   "peak_rss_mb": 3609
+  },
+  "triangle-transit_20150227_1741.gml.20.lp": {
+   "split": "validate",
+   "verdict": "SAT",
+   "seconds": 8.477,
+   "solving_seconds": 0.98,
+   "grounding_bound": false,
+   "peak_rss_mb": 396
+  },
+  "BA_120_20_2.lp": {
+   "split": "test",
+   "verdict": "SAT",
+   "seconds": 0.184,
+   "solving_seconds": 0.02,
+   "grounding_bound": false,
+   "peak_rss_mb": 0
+  },
+  "BA_200_0_2.lp": {
+   "split": "test",
+   "verdict": "SAT",
+   "seconds": 0.533,
+   "solving_seconds": 0.13,
+   "grounding_bound": false,
+   "peak_rss_mb": 52
+  },
+  "ER_500_60_5.lp": {
+   "split": "test",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 113.97,
+   "grounding_bound": false,
+   "peak_rss_mb": 971
+  },
+  "Medium-result_b26.lp": {
+   "split": "test",
+   "verdict": "SAT",
+   "seconds": 59.943,
+   "solving_seconds": 0.23,
+   "grounding_bound": false,
+   "peak_rss_mb": 2566
+  },
+  "WS_100_18_30_10.lp": {
+   "split": "test",
+   "verdict": "SAT",
+   "seconds": 0.158,
+   "solving_seconds": 0.02,
+   "grounding_bound": false,
+   "peak_rss_mb": 0
+  },
+  "WS_500_16_70_50.lp": {
+   "split": "test",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 112.06,
+   "grounding_bound": false,
+   "peak_rss_mb": 614
+  },
+  "afinput_exp_acyclic_depvary_step6_batch_yyy09.lp": {
+   "split": "test",
+   "verdict": "SAT",
+   "seconds": 0.475,
+   "solving_seconds": 0.01,
+   "grounding_bound": false,
+   "peak_rss_mb": 39
+  },
+  "bw2.pfile-3-06.pddl.1.cnf.lp": {
+   "split": "test",
+   "verdict": "SAT",
+   "seconds": 25.647,
+   "solving_seconds": 0.19,
+   "grounding_bound": false,
+   "peak_rss_mb": 1177
+  },
+  "bw3.pfile-4-07.pddl.6.cnf.lp": {
+   "split": "test",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 0.0,
+   "grounding_bound": true,
+   "peak_rss_mb": 1410
+  },
+  "covington_2016-01.gml.50.lp": {
+   "split": "test",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 0.0,
+   "grounding_bound": true,
+   "peak_rss_mb": 2180
+  },
+  "g_2490_0.02_9.lp": {
+   "split": "test",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 0.0,
+   "grounding_bound": true,
+   "peak_rss_mb": 677
+  },
+  "n256p3q08n.lp": {
+   "split": "test",
+   "verdict": "SAT",
+   "seconds": 3.084,
+   "solving_seconds": 2.26,
+   "grounding_bound": false,
+   "peak_rss_mb": 195
+  },
+  "n384p5q2_vh.lp": {
+   "split": "test",
+   "verdict": "SAT",
+   "seconds": 3.906,
+   "solving_seconds": 1.22,
+   "grounding_bound": false,
+   "peak_rss_mb": 428
+  },
+  "scc_1924_31_0.4_0.1__1.lp": {
+   "split": "test",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 0.0,
+   "grounding_bound": true,
+   "peak_rss_mb": 429
+  },
+  "sembuster_900.lp": {
+   "split": "test",
+   "verdict": "SAT",
+   "seconds": 84.965,
+   "solving_seconds": 2.15,
+   "grounding_bound": false,
+   "peak_rss_mb": 1770
+  },
+  "st_1489_41_39_1070.lp": {
+   "split": "test",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 43.59,
+   "grounding_bound": false,
+   "peak_rss_mb": 4975
+  },
+  "st_400_44_32_3867.lp": {
+   "split": "test",
+   "verdict": "UNKNOWN",
+   "seconds": 120.0,
+   "solving_seconds": 116.8,
+   "grounding_bound": false,
+   "peak_rss_mb": 513
+  }
+ },
+ "encodings": {
+  "seed": {
+   "file": "seeds/argumentation.lp",
+   "results": {
+    "train": {
+     "passed": 13,
+     "wrong": 0,
+     "n": 31,
+     "par2": 234.922,
+     "score": 12.3702,
+     "solved_seconds": 18.922,
+     "cap": 6,
+     "guard": "ok",
+     "instances": {
+      "BA_160_90_2.lp": {
+       "verdict": "SAT",
+       "seconds": 0.294,
+       "solving_seconds": 0.02,
+       "grounding_bound": false,
+       "peak_rss_mb": 89,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "ER_200_60_6.lp": {
+       "verdict": "SAT",
+       "seconds": 1.892,
+       "solving_seconds": 1.41,
+       "grounding_bound": false,
+       "peak_rss_mb": 152,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "ER_300_60_5.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 4.71,
+       "grounding_bound": false,
+       "peak_rss_mb": 322,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "Medium-result_b28.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 133,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "WS_100_24_70_70.lp": {
+       "verdict": "SAT",
+       "seconds": 0.27,
+       "solving_seconds": 0.16,
+       "grounding_bound": false,
+       "peak_rss_mb": 53,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "WS_100_6_10_50.lp": {
+       "verdict": "SAT",
+       "seconds": 0.121,
+       "solving_seconds": 0.0,
+       "grounding_bound": false,
+       "peak_rss_mb": 0,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "WS_400_8_30_30.lp": {
+       "verdict": "SAT",
+       "seconds": 4.772,
+       "solving_seconds": 0.18,
+       "grounding_bound": false,
+       "peak_rss_mb": 379,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "WS_500_16_50_50.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 503,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "a1210993_20150717_0403.gml.80.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 2066,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "admbuster_50000.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 930,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "afinput_exp_acyclic_depvary_step6_batch_yyy08.lp": {
+       "verdict": "SAT",
+       "seconds": 0.176,
+       "solving_seconds": 0.0,
+       "grounding_bound": false,
+       "peak_rss_mb": 0,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "afinput_exp_acyclic_depvary_step7_batch_yyy02.lp": {
+       "verdict": "SAT",
+       "seconds": 0.173,
+       "solving_seconds": 0.0,
+       "grounding_bound": false,
+       "peak_rss_mb": 0,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "afinput_exp_acyclic_depvary_step8_batch_yyy07.lp": {
+       "verdict": "SAT",
+       "seconds": 0.135,
+       "solving_seconds": 0.0,
+       "grounding_bound": false,
+       "peak_rss_mb": 0,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "afinput_exp_acyclic_depvary_step8_batch_yyy10.lp": {
+       "verdict": "SAT",
+       "seconds": 0.379,
+       "solving_seconds": 0.01,
+       "grounding_bound": false,
+       "peak_rss_mb": 50,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "bw3.pfile-4-06.pddl.2.cnf.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 549,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "bw3.pfile-4-06.pddl.5.cnf.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 643,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "commuteorg-shuttle_20150308_1938.gml.20.lp": {
+       "verdict": "SAT",
+       "seconds": 0.161,
+       "solving_seconds": 0.01,
+       "grounding_bound": false,
+       "peak_rss_mb": 0,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "crusti_g2io_125_0.5_31_48.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 1400,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "ferry2.pfile-L2-C4-09.pddl.6.cnf.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 228,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "g_1160_0.02_10.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 145,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "g_1590_0.01_1.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 243,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "g_2288_0.02_7.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 464,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "port-authority-of-allegheny-county_20140619_0109.gml.80.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 2084,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "scc_1523_46_0.4_0.1__8.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 241,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "scc_437_39_0.3_0.05__4.lp": {
+       "verdict": "SAT",
+       "seconds": 5.566,
+       "solving_seconds": 0.03,
+       "grounding_bound": false,
+       "peak_rss_mb": 401,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "sembuster_300.lp": {
+       "verdict": "SAT",
+       "seconds": 2.109,
+       "solving_seconds": 0.41,
+       "grounding_bound": false,
+       "peak_rss_mb": 219,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "st_1276_43_25_1938.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 210,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "st_1391_70_12_1674.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 215,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "st_826_34_8_3910.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 105,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "st_890_86_9_572.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 113,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "stanislaus_ca_2015-12-02.gml.20.lp": {
+       "verdict": "SAT",
+       "seconds": 2.874,
+       "solving_seconds": 0.55,
+       "grounding_bound": false,
+       "peak_rss_mb": 220,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      }
+     }
+    },
+    "validate": {
+     "passed": 6,
+     "wrong": 0,
+     "n": 16,
+     "par2": 125.535,
+     "score": 5.3496,
+     "solved_seconds": 5.535,
+     "cap": 6,
+     "guard": "ok",
+     "instances": {
+      "BA_100_0_4.lp": {
+       "verdict": "SAT",
+       "seconds": 0.12,
+       "solving_seconds": 0.01,
+       "grounding_bound": false,
+       "peak_rss_mb": 0,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "BA_160_50_1.lp": {
+       "verdict": "SAT",
+       "seconds": 0.395,
+       "solving_seconds": 0.13,
+       "grounding_bound": false,
+       "peak_rss_mb": 80,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "ER_200_20_6.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 5.66,
+       "grounding_bound": false,
+       "peak_rss_mb": 144,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "ER_300_30_7.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 4.94,
+       "grounding_bound": false,
+       "peak_rss_mb": 279,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "WS_400_32_70_70.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 3.09,
+       "grounding_bound": false,
+       "peak_rss_mb": 422,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "ferry2.pfile-L2-C2-04.pddl.2.cnf.lp": {
+       "verdict": "SAT",
+       "seconds": 0.939,
+       "solving_seconds": 0.13,
+       "grounding_bound": false,
+       "peak_rss_mb": 159,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "ferry2.pfile-L3-C1-08.pddl.2.cnf.lp": {
+       "verdict": "SAT",
+       "seconds": 3.078,
+       "solving_seconds": 0.43,
+       "grounding_bound": false,
+       "peak_rss_mb": 309,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "g_1604_0.03_3.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 242,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "g_3142_0.04_3.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 887,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "n100p5q2.lp": {
+       "verdict": "SAT",
+       "seconds": 0.13,
+       "solving_seconds": 0.0,
+       "grounding_bound": false,
+       "peak_rss_mb": 0,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "n256p5q2_e.lp": {
+       "verdict": "SAT",
+       "seconds": 0.873,
+       "solving_seconds": 0.08,
+       "grounding_bound": false,
+       "peak_rss_mb": 204,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "rennes_2015-12-18.gml.50.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 107,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "rpsrute@ruter.no_20150319_1558.gml.80.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 1671,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "scc_1496_48_0.5_0.2__5.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 240,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "st_1350_55_31_149.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 209,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "triangle-transit_20150227_1741.gml.20.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 357,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      }
+     }
+    },
+    "test": {
+     "passed": 6,
+     "wrong": 0,
+     "n": 17,
+     "par2": 139.293,
+     "score": 5.3205,
+     "solved_seconds": 7.293,
+     "cap": 6,
+     "guard": "ok",
+     "instances": {
+      "BA_120_20_2.lp": {
+       "verdict": "SAT",
+       "seconds": 0.167,
+       "solving_seconds": 0.02,
+       "grounding_bound": false,
+       "peak_rss_mb": 0,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "BA_200_0_2.lp": {
+       "verdict": "SAT",
+       "seconds": 0.496,
+       "solving_seconds": 0.13,
+       "grounding_bound": false,
+       "peak_rss_mb": 72,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "ER_500_60_5.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.37,
+       "grounding_bound": false,
+       "peak_rss_mb": 735,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "Medium-result_b26.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 192,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "WS_100_18_30_10.lp": {
+       "verdict": "SAT",
+       "seconds": 0.125,
+       "solving_seconds": 0.02,
+       "grounding_bound": false,
+       "peak_rss_mb": 0,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "WS_500_16_70_50.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 521,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "afinput_exp_acyclic_depvary_step6_batch_yyy09.lp": {
+       "verdict": "SAT",
+       "seconds": 0.41,
+       "solving_seconds": 0.0,
+       "grounding_bound": false,
+       "peak_rss_mb": 50,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "bw2.pfile-3-06.pddl.1.cnf.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 111,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "bw3.pfile-4-07.pddl.6.cnf.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 1397,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "covington_2016-01.gml.50.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 141,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "g_2490_0.02_9.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 493,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "n256p3q08n.lp": {
+       "verdict": "SAT",
+       "seconds": 2.711,
+       "solving_seconds": 1.96,
+       "grounding_bound": false,
+       "peak_rss_mb": 197,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "n384p5q2_vh.lp": {
+       "verdict": "SAT",
+       "seconds": 3.384,
+       "solving_seconds": 0.95,
+       "grounding_bound": false,
+       "peak_rss_mb": 425,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "scc_1924_31_0.4_0.1__1.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 394,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "sembuster_900.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 130,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "st_1489_41_39_1070.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 239,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "st_400_44_32_3867.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 6.0,
+       "solving_seconds": 2.96,
+       "grounding_bound": false,
+       "peak_rss_mb": 413,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      }
+     }
+    },
+    "test_at_reporting_cap": {
+     "passed": 10,
+     "wrong": 0,
+     "n": 17,
+     "par2": 1975.531,
+     "score": 9.5159,
+     "solved_seconds": 295.531,
+     "cap": 120,
+     "guard": "ok",
+     "instances": {
+      "BA_120_20_2.lp": {
+       "verdict": "SAT",
+       "seconds": 0.17,
+       "solving_seconds": 0.02,
+       "grounding_bound": false,
+       "peak_rss_mb": 0,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "BA_200_0_2.lp": {
+       "verdict": "SAT",
+       "seconds": 0.511,
+       "solving_seconds": 0.13,
+       "grounding_bound": false,
+       "peak_rss_mb": 67,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "ER_500_60_5.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 120.0,
+       "solving_seconds": 114.37,
+       "grounding_bound": false,
+       "peak_rss_mb": 1010,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "Medium-result_b26.lp": {
+       "verdict": "SAT",
+       "seconds": 59.149,
+       "solving_seconds": 0.18,
+       "grounding_bound": false,
+       "peak_rss_mb": 2587,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "WS_100_18_30_10.lp": {
+       "verdict": "SAT",
+       "seconds": 0.127,
+       "solving_seconds": 0.02,
+       "grounding_bound": false,
+       "peak_rss_mb": 0,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "WS_500_16_70_50.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 120.0,
+       "solving_seconds": 112.51,
+       "grounding_bound": false,
+       "peak_rss_mb": 632,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "afinput_exp_acyclic_depvary_step6_batch_yyy09.lp": {
+       "verdict": "SAT",
+       "seconds": 0.424,
+       "solving_seconds": 0.01,
+       "grounding_bound": false,
+       "peak_rss_mb": 50,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "bw2.pfile-3-06.pddl.1.cnf.lp": {
+       "verdict": "SAT",
+       "seconds": 25.254,
+       "solving_seconds": 0.19,
+       "grounding_bound": false,
+       "peak_rss_mb": 1165,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "bw3.pfile-4-07.pddl.6.cnf.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 120.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 1407,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "covington_2016-01.gml.50.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 120.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 2186,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "g_2490_0.02_9.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 120.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 672,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "n256p3q08n.lp": {
+       "verdict": "SAT",
+       "seconds": 2.76,
+       "solving_seconds": 1.99,
+       "grounding_bound": false,
+       "peak_rss_mb": 199,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "n384p5q2_vh.lp": {
+       "verdict": "SAT",
+       "seconds": 3.465,
+       "solving_seconds": 1.0,
+       "grounding_bound": false,
+       "peak_rss_mb": 428,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "scc_1924_31_0.4_0.1__1.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 120.0,
+       "solving_seconds": 0.0,
+       "grounding_bound": true,
+       "peak_rss_mb": 428,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "sembuster_900.lp": {
+       "verdict": "SAT",
+       "seconds": 83.823,
+       "solving_seconds": 1.92,
+       "grounding_bound": false,
+       "peak_rss_mb": 1728,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      },
+      "st_1489_41_39_1070.lp": {
+       "verdict": "TIMEOUT",
+       "seconds": 120.0,
+       "solving_seconds": 44.65,
+       "grounding_bound": false,
+       "peak_rss_mb": 4922,
+       "error": "",
+       "counted": false,
+       "wrong": false,
+       "note": ""
+      },
+      "st_400_44_32_3867.lp": {
+       "verdict": "SAT",
+       "seconds": 119.848,
+       "solving_seconds": 116.71,
+       "grounding_bound": false,
+       "peak_rss_mb": 509,
+       "error": "",
+       "counted": true,
+       "wrong": false,
+       "note": ""
+      }
+     }
+    }
+   }
+  }
+ },
+ "validator_selftest": {
+  "instances": 8,
+  "accept_witness": 8,
+  "reject_one_atom_removed": 8,
+  "reject_empty": 8,
+  "pass": true
+ }
+}

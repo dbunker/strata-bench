@@ -1,0 +1,16 @@
+person(1).
+thing(1).
+thing(2).
+thing(3).
+thing(4).
+thing(8).
+personTOthing(1,1).
+personTOthing(1,2).
+personTOthing(1,3).
+personTOthing(1,4).
+personTOthing(1,8).
+cabinetDomain(1).
+cabinetDomain(2).
+cabinetDomain(3).
+cabinetDomain(4).
+roomDomain(1).
